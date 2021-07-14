@@ -1,0 +1,140 @@
+.container{
+    width:100%;
+    height:100vh;
+    font-family:  sans-serif;
+}
+.labelhead{
+    font-size:16px;
+    font-weight: bold;
+}
+.section1{
+    width:100%;
+}
+
+.text{
+    display:flex;
+}
+
+#fname{
+    height:30px;
+    width:100%;
+}
+
+#lname{
+    height:30px;
+    width:100%;
+}
+
+#emailid{
+    height:30px;
+    width:50%;
+}
+
+.l-name{
+    margin-left: 4%;
+}
+
+.mail{
+    margin-top: 1%;
+}
+
+.exp{
+    margin-top: 1%;
+}
+
+.star{
+    font-size: 20px;
+}
+
+.pline{
+    padding:0;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.table-satisfied{
+    margin-top:1%;
+}
+
+.table-likely{
+    margin-top:1%;
+}
+
+td,th{
+    text-align:center;
+    width:fit-content;
+}
+
+.bgcolor{
+    background-color: lightgray;
+}
+
+.rowhead{
+    text-align: left;
+    width:30%;
+}
+
+.comments{
+margin-top:1%;
+}
+
+#addl-comments{
+    width:99%;
+    height:140px;
+}
+
+button{
+margin-top:1%;
+padding:10px;
+}
+
+.labelhead::after {
+    content:"*";
+    color:red;
+}
+
+
+@media only screen and (max-width: 420px){
+    
+    .labelhead{
+        font-size:12px;
+        font-weight: bold;
+    }
+    
+    .text{
+        display:flex;
+        font-size: 12px;
+    }
+    
+    #fname,#lname{
+        height:30px;
+        width:100%;
+    }
+    
+    #emailid{
+        height:30px;
+        width:90%;
+    }
+    
+    .l-name{
+        margin-left:4%;
+    }
+    
+    .pline{
+        padding:0;
+        margin-top:10px;
+        margin-bottom:10px;
+        font-size: 10px;
+    }
+    
+    td,th{
+        text-align:center;
+        width:fit-content;
+        font-size:10px;
+    }
+      
+    #addl-comments{
+        width:99%;
+        height:130px;
+    }
+}
